@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -33,3 +34,19 @@ function App() {
 }
 
 export default App
+=======
+import React from 'react';
+import LandingPage from './pages/LandingPage';
+import Sample from './component/Sample.jsx';
+
+const App = () => {
+  return (
+    <div>
+      <LandingPage></LandingPage>
+      <Sample/>
+    </div>
+  );
+};
+
+export default App;
+>>>>>>> alif
